@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="register_account">Đăng ký tài khoản</string>
+    <string name="head_phone_vn">+84</string>
+    <string name="your_number_phone">Số điện thoại của bạn</string>
+    <string name="agree">Tôi đồng ý với </string>
+    <string name="privacy_policy">Điều kiện Điều khoản và Chính sách </string>
+    <string name="of_hpay">của HPay</string>
+    <string name="next_step">Tiếp tục</string>
+    <string name="url_policy">https://hpay.com.vn/about/user_agreement.html</string>
+    <string name="setPassTitleScreen">Thiết lập mật khẩu</string>
+    <string name="setPassTitle">Nhập mật khẩu</string>
+    <string name="setPassSubTitle">Tạo một mật khẩu</string>
+    <string name="setOTPTitle">Nhập mã OTP</string>
+    <string name="setOTPSubTitle">Mã OTP đã được gửi đến số </string>
+    <string name="setOTPDefaultPhone">(+84) 343 402 954 </string>
+    <string name="setOTPLater">Gửi lại mã OTP (60s)</string>
+    <string name="userNameDafult">TRẦN ĐỨC LONG</string>
+    <string name="balance">Số dư</string>
+    <string name="balanceDefault">8.000.000d</string>
+    <string name="deposit">Nạp tiền</string>
+    <string name="accountBank">Tài khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
