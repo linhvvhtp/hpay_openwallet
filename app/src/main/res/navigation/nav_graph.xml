@@ -62,5 +62,22 @@
         android:id="@+id/homeFragment"
         android:name="com.hpay.openwallet.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bankLinkInfoFragment"
+            app:destination="@id/bankLinkInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_allTransactionFragment"
+            app:destination="@id/allTransactionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bankLinkInfoFragment"
+        android:name="com.hpay.openwallet.bank_info.BankLinkInfoFragment"
+        android:label="fragment_bank_link_info"
+        tools:layout="@layout/fragment_bank_link_info" />
+    <fragment
+        android:id="@+id/allTransactionFragment"
+        android:name="com.hpay.openwallet.AllTransactionFragment"
+        android:label="fragment_all_transaction"
+        tools:layout="@layout/fragment_all_transaction" />
 </navigation>

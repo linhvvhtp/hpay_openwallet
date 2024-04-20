@@ -6,4 +6,7 @@
     <color name="green">#FF4CAF50</color>
     <color name="purple_dark">#120032</color>
     <color name="purple_light">#71579F</color>
+    <color name="color_bg_bank_item">#DD326C</color>
+    <color name="color_transaction_recently">#113567</color>
+    <color name="color_grey">#7C7C7C</color>
 </resources>

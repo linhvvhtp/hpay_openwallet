@@ -20,6 +20,9 @@
     <string name="balanceDefault">8.000.000d</string>
     <string name="deposit">Nạp tiền</string>
     <string name="accountBank">Tài khoản</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="transactionRecently">Giao dịch gần đây</string>
+    <string name="seeAllTransaction">Xem tất cả</string>
+    <string name="bankLinkTitle">Liên kết ngân hàng</string>
+    <string name="defaultText">Mặc định</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

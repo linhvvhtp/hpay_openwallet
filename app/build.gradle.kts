@@ -1,5 +1,7 @@
 plugins {
-    id("com.android.application")
+    //thay doi application thanh library
+//    id("com.android.application")
+    id("com.android.library")
 }
 
 android {
@@ -7,11 +9,15 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.hpay.openwallet"
+        //comment
+//        applicationId = "com.hpay.openwallet"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+
+//        //comment
+//        versionCode = 1
+//        //comment
+//        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

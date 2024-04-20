@@ -10,7 +10,7 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp"
@@ -43,6 +43,7 @@
             app:layout_constraintTop_toTopOf="parent" />
         <LinearLayout
             android:orientation="horizontal"
+            android:gravity="center_vertical"
             android:id="@+id/ln_number_phone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -57,6 +58,7 @@
 
             </ImageView>
             <TextView
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:paddingRight="10dp"
                 android:text="@string/head_phone_vn"
@@ -64,13 +66,15 @@
                 android:layout_height="wrap_content">
 
             </TextView>
-            <TextView
-
+            <EditText
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:hint="@string/your_number_phone"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-            </TextView>
+            </EditText>
 
         </LinearLayout>
         <TextView
